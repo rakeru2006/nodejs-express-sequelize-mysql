@@ -2,6 +2,11 @@
 
 # :sparkles: Project Title  Create Node  application   :sparkles:
 ================
+
+![demo](https://github.com/rakeru2006/express_heroku/blob/main/note.png)
+![demo](https://github.com/rakeru2006/express_heroku/blob/main/note.png)
+
+
 ## Author :bowtie:
 ***
 
@@ -19,7 +24,8 @@ Created by Raquel Ceron
   Sequelize 
   Postman
 
-  Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+  Make sure you have [Node.js](http://nodejs.org/) 
+  
 
   ```
    npm install
