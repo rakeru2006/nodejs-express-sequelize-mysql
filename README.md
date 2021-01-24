@@ -12,6 +12,8 @@ Created by Raquel Ceron
   ## Prerequisites
   :feet:
   ***
+  
+   ```
   Node.js
   JavaScript 
   Express 
@@ -19,7 +21,7 @@ Created by Raquel Ceron
   MySQL
   Sequelize 
   Postman
-
+ ```
   Make sure you have [Node.js](http://nodejs.org/) 
   
 
