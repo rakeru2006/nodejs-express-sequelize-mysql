@@ -360,11 +360,11 @@ Define Routes
 
 ```
 ```
-```
+
 
 Test Aplication 
 
 ![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test1.png)
 ![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test3.png)
-![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test3.png)
+![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test4.png)
 
