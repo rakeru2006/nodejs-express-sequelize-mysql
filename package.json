@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-express-sequelize-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeru2006/nodejs-express-sequelize-mysql.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeru2006/nodejs-express-sequelize-mysql/issues"
+  },
+  "homepage": "https://github.com/rakeru2006/nodejs-express-sequelize-mysql#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.4.0"
+  }
+}
