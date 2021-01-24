@@ -7,7 +7,7 @@ var passport = require("./config/passport");
 
 // Setting up port and requiring models for syncing
 //Then the app listen on port 8000. We can use any free port number on our computer. 
-
+// set port, listen for requests
 var PORT = process.env.PORT || 8080;
 var db = require("./models");
 
@@ -20,7 +20,9 @@ app.use(express.json());
 app.use(express.static("public"));
 // We need to use sessions to keep track of our user's login status
 // For Passport
+//to ensure that the login session is restored in the correct order.
 app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true }));
+//middleware is required to initialize Passport. If your application uses persistent login sessions,
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -30,7 +32,7 @@ require("./routes/api-routes.js")(app);
 
 // Syncing our database and logging a message to the user upon success
 db.sequelize.sync().then(function() {
-  app.listen(PORT, function() {
-    console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
-  });
+app.listen(PORT, function() {
+console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
+});
 });
