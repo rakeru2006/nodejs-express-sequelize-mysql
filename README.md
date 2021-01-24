@@ -84,15 +84,7 @@ We need  install dependencies
 
 
 ```
-npm install express sequelize mysql2
-"bcryptjs": "^2.4.3",
-"cors": "^2.8.5",
-"express": "^4.17.1",
-"express-session": "^1.17.1",
-"mysql2": "^2.2.5",
-"passport": "^0.4.1",
-"passport-local": "^1.0.0",
-"sequelize": "^6.4.0"
+npm install express sequelize mysql2  bcryptjs cors  express-session   passport  passport-local  
 ```
 
 In your project Add a file named .gitignore
