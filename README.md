@@ -8,36 +8,16 @@
 Created by Raquel Ceron
 
 
-
-## Table of Contents :pushpin:
-***
-  - [Prerequisites](#Prerequisites)
-  - [License](#License)
-  - [Usage](#Usage)
-  - [Installation](#Installation)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions FAQs](#Questions-faqs)
-
- -
-
-
-##
-:bulb:
-  ***
-
   ## Prerequisites
   :feet:
   ***
-  Node.js: is an open source, cross-platform,
-  JavaScript runtime environment that executes JavaScript code outside of a web browser.
-  Express or Express.js - This is a web application framework for Node.js, released as free and open source software under the MIT License. It is designed to create web applications and APIs. It has been called the standard server framework for Node.js.
-  NPM: is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript Node.js runtime environment.
-  It consists of a client (command line), also called npm, and an online database of paid public and private packages, called npm registry.
-  MySQL: is an open source relational database management system.
-  Sequelize: it is an ORM for Nodejs that will allow you to speed up your developments that include relational databases such as MySQL.
-  Postman: it is an API development environment that allows us to design, test and monitor REST services.
-
+  Node.js
+  JavaScript 
+  Express 
+  NPM
+  MySQL
+  Sequelize 
+  Postman
 
   Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
@@ -56,7 +36,7 @@ The first thing we are going to do is build a package.json
   ```
 
 This is an example how look our paket json
-
+```
 {
   "name": "nodejs-express-sequelize-mysql",
   "version": "1.0.0",
@@ -94,7 +74,7 @@ This is an example how look our paket json
     "sequelize": "^6.4.0"
   }
 }
-
+```
 We need  install dependencies
 
 
@@ -194,7 +174,7 @@ If you inspect your directory at this point, you will notice that this create to
 
  Your directory structure should now look like this:
 
- mi-proyecto/
+ nodejs-express-sequelize-mysql/
  ├── config/
  │   └── config.json
  ├── migrations/
@@ -362,6 +342,7 @@ We will have three models: User
 ```
 sequelize model:create --name usuario --attributes username:string,status:char
 ```
+Define Routes
 
 Now run:
 
