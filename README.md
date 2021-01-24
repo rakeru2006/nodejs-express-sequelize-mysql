@@ -169,7 +169,7 @@ If you inspect your directory at this point, you will notice that this create to
  create a new folder named config and create a new file named config.json in the models folder.
 
  Your directory structure should now look like this:
-
+```
  nodejs-express-sequelize-mysql/
  ├── config/
  │   └── config.json
@@ -181,6 +181,7 @@ If you inspect your directory at this point, you will notice that this create to
  ├── server.js
  ├── package-lock.json
  └── package.json
+ ```
 
 Do not modify anything from the server / models / index.js file that was generated automatically
 
