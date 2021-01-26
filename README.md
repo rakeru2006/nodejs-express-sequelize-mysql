@@ -226,6 +226,7 @@ create a new folder named config and create a new file named config.json in the 
 
 Your directory structure should now look like this:
 
+´´´
  nodejs-express-sequelize-mysql/
  ├── config/
  │   └── config.json
@@ -238,6 +239,7 @@ Your directory structure should now look like this:
  ├── package-lock.json
  └── package.json
 
+´´´
 Do not modify anything from the server / models / index.js file that was generated automatically
 If we check the ./config/config.json file, we see that we have 3 options for connecting to a database,
 
