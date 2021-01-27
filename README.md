@@ -42,11 +42,13 @@ Mapping - Refers to the connection between the objects and the tables.
  :feet:
  ***
 
+
  [sequelize](https://sequelize.org/v3/)
-
+ 
  [passpor](http://www.passportjs.org/)
+ 
 
-  Make sure you have [Node.js](http://nodejs.org/)
+  Make sure you install [Node.js](http://nodejs.org/)
 
 
   ```
@@ -726,12 +728,19 @@ require('./config/passport');
   ***
 
 
+
 ```
 npm server.js
 ```
-
-
+ Open the browser and write 
+ ```
+http://localhost:8080/
+ ```
 ![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test1.png)
+ ***
+
 ![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test3.png)
+ ***
+ Verify in Mysql Workbench 
 ![demo](https://github.com/rakeru2006/nodejs-express-sequelize-mysql/blob/main/test4.png)
 
