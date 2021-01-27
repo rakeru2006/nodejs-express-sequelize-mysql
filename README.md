@@ -56,7 +56,11 @@ Mapping - Refers to the connection between the objects and the tables.
 
   ```
 
-## Step 1: Generate a package.json file
+
+
+## Step1: Generate a package.json file
+  :feet:
+  ***
 The first thing we are going to do is build a package.json
 
 
@@ -106,7 +110,10 @@ This is an example how look our paket json
 }
 ```
 
-##Step 2: Install Dependencies
+## Step 2: Install Dependencies
+  :feet:
+  ***
+
 We need  install dependencies
 
 
@@ -124,7 +131,9 @@ node_modules
 node_modules
 
 
-##Step 3: Configure the application
+## Step 3: Configure the application
+  :feet:
+  ***
 Now, we create a server file. This will be the main file called when you type the following:
 
 npm start
@@ -183,10 +192,14 @@ Instaling nodemon npm
 ```
 npm i -D nodemon
 ```
+## Step 4: Configure Sequelize with MySQL
+  :feet:
+  ***
 
-##Step 4: Configure Sequelize with MySQL
 
-##Step 4.1: Create MySQL Database
+## Step 4.1: Create MySQL Database
+  :feet:
+  ***
 
 We create a db folder and the schema.sql file with the data from the "passport_demo" database
 
@@ -212,7 +225,11 @@ Installing Sequelize and mysql2
 ```
  npm i --save sequelize mysql2
 ```
-##Step 4.2:  We initialize Sequelize
+
+## Step 4.2:  We initialize Sequelize
+  :feet:
+  ***
+
 ```
 sequelize init
 
@@ -292,7 +309,10 @@ Now let's check the ./models/index.js file. This file has the function of creati
 
 
 
-##Step 4.3: Generating Models to create table
+## Step 4.3: Generating Models to create table
+  :feet:
+  ***
+
 
 Now again we will use the sequelize cli command to generate model files and migrations.
 We will have tow models: User and password
@@ -632,7 +652,9 @@ Then, in our /public  folder, we create a new file and name it signup.html.
 
 ```
 
-##Step 5. Write a passport
+## Step 5. Write a passport
+  :feet:
+  ***
 
 
 Then, in our /config  folder, we create a new file and name it passport.js. This file will contain our passport strategies.
@@ -699,8 +721,10 @@ Verify we require  “passport.js” in our “server.js” file. Add the follow
 require('./config/passport');
 ```
 
+## Step 6. Test Aplication
+  :feet:
+  ***
 
-Test Aplication
 
 ```
 npm server.js
