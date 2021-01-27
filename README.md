@@ -24,7 +24,6 @@ Mapping - Refers to the connection between the objects and the tables.
 
 
 
-
 ## Prerequisites
   :feet:
   ***
@@ -39,7 +38,7 @@ Mapping - Refers to the connection between the objects and the tables.
   Sequelize
   Postman
  ```
- ## References
+## References
  :feet:
  ***
 
@@ -56,7 +55,6 @@ Mapping - Refers to the connection between the objects and the tables.
    npm -v
 
   ```
-
 
 ## Step 1: Generate a package.json file
 The first thing we are going to do is build a package.json
@@ -226,7 +224,8 @@ create a new folder named config and create a new file named config.json in the 
 
 Your directory structure should now look like this:
 
-´´´
+
+```
  nodejs-express-sequelize-mysql/
  ├── config/
  │   └── config.json
@@ -239,7 +238,7 @@ Your directory structure should now look like this:
  ├── package-lock.json
  └── package.json
 
-´´´
+```
 Do not modify anything from the server / models / index.js file that was generated automatically
 If we check the ./config/config.json file, we see that we have 3 options for connecting to a database,
 
@@ -273,20 +272,17 @@ Be shure to  modify your   "password": and  "database": to match with your congi
 ```
 modifiquemos la opción “development”:
 
+
+```
 "development": {
     "username": "root",
-    "password": "tucontraseña",
-    "database": "howto-sequelize",
+    "password": "yourpasword",
+    "database": "yournamedatabase",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false,
-    "dialectOptions": {
-      "charset": "utf8mb4"
     },
-    "logging": true,
-    "benchmark": true
-  }
-
+   
+```
 
 Now let's check the ./models/index.js file. This file has the function of creating a new instance of Sequelize each time it is called, and its default environment variable is “development”, which will use the database, host, user, password and options that we just added.
 ```
