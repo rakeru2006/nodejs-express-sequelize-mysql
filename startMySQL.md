@@ -1,7 +1,8 @@
 Comandos MySQL 
 
-http://github.com - automatic!
-[GitHub](http://github.com)
+
+
+[MySQL](https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-commands.html)
 
 Para crear una baase de datos nueva usamos el comando 
 
