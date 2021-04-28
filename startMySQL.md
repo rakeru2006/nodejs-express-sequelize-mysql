@@ -8,43 +8,23 @@ Para crear una baase de datos nueva usamos el comando
 
 
 
-
-Commands
-SELECT - extracts data from a database
-UPDATE - updates data in a database
-DELETE - deletes data from a database
-INSERT INTO - inserts new data into a database
-CREATE DATABASE - creates a new database
-ALTER DATABASE - modifies a database
-CREATE TABLE - creates a new table
-ALTER TABLE - modifies a table
-DROP TABLE - deletes a table
-CREATE INDEX - creates an index (search key)
-DROP INDEX - deletes an index
-
-
-The following constraints are commonly used in SQL:
-
-NOT NULL - Ensures that a column cannot have a NULL value
-UNIQUE - Ensures that all values in a column are different
-PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
-FOREIGN KEY - Prevents actions that would destroy links between tables
-CHECK - Ensures that the values in a column satisfies a specific condition
-DEFAULT - Sets a default value for a column if no value is specified
-CREATE INDEX - Used to create and retrieve data from the database very quickly
-
-
-
 # Crear 
 
 ```
-CREATE DATABASE databasename;
+CREATE DATABASE databasename_db;
 ```
-Ejemplo 
 
 ```
-CREATE DATABASE jr_hidroponica_db;
+CREATE DATABASE  IF NOT EXIST databasename_db;
 ```
+
+
+# Usar 
+
+```
+USE DATABASE databasename_db;
+```
+
 
 # Borrar 
 ```
@@ -56,6 +36,7 @@ DROP DATABASE databasename;
 
 Ejemplo 
 
+```
 CREATE TABLE Seeds
 (
 seedID int,
@@ -69,10 +50,13 @@ Temperature  varchar(255)
 );
 
 
+```
 # Tirar una tabla 
 
+```
 DROP TABLE table_name;
-
+ 
+```
 
 
 
@@ -99,3 +83,29 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+
+
+
+Commands
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+
+The following constraints are commonly used in SQL:
+
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
