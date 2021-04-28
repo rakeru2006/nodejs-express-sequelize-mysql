@@ -58,46 +58,16 @@ DROP TABLE table_name;
  
 ```
 
+# Insertar 
 
-
-
-Ejemplos 
-
-
-`<addr>` element here instead.
-
-
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+```
+INSERT INTO `DB_name`.`table_name` (`ID_column`, `name_column`) VALUES ('1', 'Oregano');
 ```
 
 
-Tabla 
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
-
-Commands
-SELECT - extracts data from a database
-UPDATE - updates data in a database
-DELETE - deletes data from a database
-INSERT INTO - inserts new data into a database
-CREATE DATABASE - creates a new database
+```
 ALTER DATABASE - modifies a database
-CREATE TABLE - creates a new table
-ALTER TABLE - modifies a table
-DROP TABLE - deletes a table
-CREATE INDEX - creates an index (search key)
-DROP INDEX - deletes an index
+```
 
 
 The following constraints are commonly used in SQL:
